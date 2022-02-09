@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@500&display=swap');
 
+html{
+  
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP';
+
+}
 body {
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  margin: 0 100px 10px 0;
+  font-size: 11px;
 }

@@ -1,6 +1,6 @@
-.App{
+.App {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
 }

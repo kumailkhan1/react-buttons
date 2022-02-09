@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@500&display=swap');
+
+:root {
+    --default-color: #E0E0E0;
+    --primary-color: #2962FF;
+    --secondary-color: #455A64;
+    --danger-color: #D32F2F;
+    --outline-color: white;
+    --text-color: white;
+    --disableShadow-color: #3D5AFE;
+
+    --border-default: none;
+    --border-outline: 1px solid #3D5AFE;
+
+    --hover-default: #AEAEAE;
+    --hover-outline: #2962FF1A;
+    --hover-text: #2962FF1A;
+    --hover-primary: #0039CB;
+    --hover-secondary: #1C313A;
+    --hover-danger: #9A0007;
+
+    --primary-text-color: white;
+    --outline-text-color: #3D5AFE;
+    --text-text-color: #3D5AFE;
+    --disableShadow-text-color: white;
+    --disabled-text-color: #9E9E9E;
+
+    --size-sm: 5px;
+    --size-md: 10px;
+    --size-lg: 15px;
+}
+
+
+.Button {
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    min-width: 81px;
+    min-height: 36px;
+    background: var(--default-color);
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    border: var(--border-default);
+    margin: 0 150px 10px 0;
+    padding: 10px;
+}
+
+.Button:hover, .Button:focus {
+    background: var(--hover-default);
+}
+
+.Primary {
+    color: var(--primary-text-color);
+    background-color: var(--primary-color);
+}
+
+.Primary:hover, .Primary:focus {
+    background: var(--hover-primary);
+
+}
+
+.Secondary {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-color);
+}
+
+.Secondary:hover, .Secondary:focus {
+    background: var(--hover-secondary);
+
+}
+
+.Danger {
+    color: var(--primary-text-color);
+    background-color: var(--danger-color);
+}
+
+.Danger:hover, .Danger:focus {
+    background: var(--hover-danger);
+}
+
+.Icon {
+    background: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+.Icon span {
+    margin: 5px;
+}
+
+
+
+.Outline {
+    color: var(--outline-text-color);
+    background: var(--outline-color);
+    border: var(--border-outline);
+}
+
+.Outline:hover, .Outline:focus {
+    background: var(--hover-outline);
+}
+
+.Text {
+    color: var(--primary-color);
+    background: var(--text-color);
+    box-shadow: none;
+}
+
+.Text:hover, .Text:focus {
+    background: var(--hover-text);
+}
+
+.TextDisabled {
+    color: var(--disabled-text-color);
+}
+
+.DisableShadow {
+    background-color: var(--disableShadow-color);
+    color: var(--disableShadow-text-color);
+    box-shadow: none;
+}
+
+.Small {
+    min-width: 73px;
+    min-height: 32px;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: var(--size-sm);
+}
+
+.Medium {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: var(--size-md);
+}
+
+.Large {
+    min-width: 93px;
+    min-height: 42px;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: var(--size-lg);
+}
