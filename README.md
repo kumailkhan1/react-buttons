@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Reactive Button}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://imgur.com/a/sfiXrjf)
+![screenshot](https://i.imgur.com/kuI5pLI_d.webp?maxwidth=760&fidelity=grand)
 
 
 
