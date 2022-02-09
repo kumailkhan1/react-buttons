@@ -27,8 +27,7 @@ const Button = (
             ${color === 'default' ? classes.Default :
                 color === 'primary' ? classes.Primary :
                     color === 'secondary' ? classes.Secondary :
-                        color === 'danger' ? classes.Danger :
-                            color === '' ? classes.Default : ''
+                        color === 'danger' ? classes.Danger :''
             }
           
         `}
