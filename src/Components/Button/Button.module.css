@@ -118,8 +118,6 @@
 }
 
 .DisableShadow {
-    background-color: var(--disableShadow-color);
-    color: var(--disableShadow-text-color);
     box-shadow: none;
 }
 
